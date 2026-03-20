@@ -1,5 +1,13 @@
 # STIX State-Driven Portal System Handoff
 
+## Brand Context
+This document defines **STIX** as the product and system layer inside a broader ecosystem. For parent-brand and naming guidance, use [`docs/brand/architecture.md`](brand/architecture.md) and [`docs/brand/frisky-developments.md`](brand/frisky-developments.md).
+
+Within that architecture:
+- **Frisky Developments** is the parent studio and creative signature.
+- **STIX MΛGIC** is the active magic engine described in this handoff.
+- **LORE** is the identity layer that gives the magic a user-facing presence.
+
 ## Executive Summary
 STIX has moved from a collection of UI features into a state-driven portal system. The product should behave like a single persistent shell where user actions update shared state and the interface responds as one coordinated system instead of navigating between disconnected pages.
 
