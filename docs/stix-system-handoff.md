@@ -3,7 +3,7 @@
 ## Executive Summary
 STIX has moved from a collection of UI features into a state-driven portal system. The product should behave like a single persistent shell where user actions update shared state and the interface responds as one coordinated system instead of navigating between disconnected pages.
 
-## Ecosystem context
+## Ecosystem Context
 This document describes the STIX MΛGIC system layer, not the full parent-brand architecture. Within the broader ecosystem:
 
 - **Frisky Developments** is the parent creative studio and personality layer behind the work.
