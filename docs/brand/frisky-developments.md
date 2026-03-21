@@ -14,7 +14,7 @@ What was weak or missing:
 - no brand architecture showing role separation across Frisky, STIX MΛGIC, and LORE
 - no practical direction for the parent logo or visual character
 
-This document, together with the architecture overview and README, is intended to close those gaps without overstating what already exists.
+This document, together with the [architecture overview](../brand/architecture.md) and the repo [README](../../README.md), is intended to close those gaps without overstating what already exists.
 
 ## Brand role
 **Frisky Developments** is the parent creative studio and personality layer behind the ecosystem.
