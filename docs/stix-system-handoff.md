@@ -3,6 +3,15 @@
 ## Executive Summary
 STIX has moved from a collection of UI features into a state-driven portal system. The product should behave like a single persistent shell where user actions update shared state and the interface responds as one coordinated system instead of navigating between disconnected pages.
 
+## Ecosystem context
+This document describes the STIX MΛGIC system layer, not the full parent-brand architecture. Within the broader ecosystem:
+
+- **Frisky Developments** is the parent creative studio and personality layer behind the work.
+- **STIX MΛGIC** is the expressive engine and magic system described in this handoff.
+- **LORE** is the identity layer that gives the system a user-facing presence.
+
+Use this distinction to keep implementation work clear: STIX should remain the hero inside the product experience, while Frisky Developments provides authorship and LORE carries identity logic.
+
 ## Core Architecture
 ### 1. Three decoupled systems
 - **Step machine**: tracks where the user is in the experience.
