@@ -4,7 +4,7 @@ This repository documents the brand and product system for the Frisky Developmen
 
 ## Brand architecture
 - **Frisky Developments** is the parent creative studio and personality layer. It is the signature behind the ecosystem: warm, generous, playful, and slightly mischievous.
-- **STIX MΛGIC** is the expressive engine. It is the magic itself: the system that turns interaction into an animated, responsive experience.
+- **STIX MΛGIC (STIX MAGIC)** is the expressive engine. It is the magic itself: the system that turns interaction into an animated, responsive experience.
 - **LORE** is the identity layer. It gives the magic a profile, memory, and user-facing presence.
 
 In short:
