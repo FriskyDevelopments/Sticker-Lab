@@ -21,6 +21,7 @@ Use Frisky Developments when speaking about authorship, studio intent, ecosystem
 - [`docs/brand/architecture.md`](docs/brand/architecture.md) — ecosystem structure, naming logic, and role boundaries.
 - [`docs/brand/frisky-developments.md`](docs/brand/frisky-developments.md) — parent-brand definition, voice, and logo direction.
 - [`docs/stix-system-handoff.md`](docs/stix-system-handoff.md) — product/system guidance for STIX as the state-driven portal shell.
+- [`docs/automation/architecture.md`](docs/automation/architecture.md) — technical plan for the LORE × STIX premium automation system.
 
 ## Repo note
 
