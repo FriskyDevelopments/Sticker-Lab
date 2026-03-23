@@ -543,7 +543,7 @@ Minimum roles:
 - explicit manual publish confirmation
 - visible rollback or follow-up action path after failures
 
-## Module interaction model
+## 11. Module interaction model
 
 ### Primary event flow
 
