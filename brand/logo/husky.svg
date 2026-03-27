@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Frisky Developments Husky logo">
+  <title>Frisky Developments Husky Logo</title>
+  <desc>
+    Source-of-truth Husky logo container.
+    Replace this file's inner vector data with the officially provided Husky SVG source without altering geometry.
+  </desc>
+
+  <!--
+    FRISKY_DEVELOPMENTS_PROTOCOL_V2.2 RULE:
+    - Do not redraw, smooth, round, or reinterpret logo geometry.
+    - Keep original asymmetry.
+    - F segment is system core node.
+
+    Integration note:
+    - Apply id="core-node" to the official F/core-node path inside the imported source SVG.
+    - The motion system in brand/motion/animations.ts targets that id directly.
+  -->
+
+  <g id="logo-root" fill="currentColor">
+    <!--
+      PLACEHOLDER: Insert official Husky path data directly below.
+      Example:
+      <path id="core-node" d="..."/>
+      <path d="..."/>
+    -->
+  </g>
+</svg>

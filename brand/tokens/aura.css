@@ -1,0 +1,32 @@
+:root {
+  --aura-idle-bg: #1a1a1b;
+  --aura-idle-fg: #ffffff;
+
+  --aura-cyan: #00f5ff;
+  --aura-magenta: #ff00e5;
+  --aura-lime: #39ff14;
+
+  --logo-min-size-icon: 24px;
+  --logo-min-size-full: 120px;
+  --logo-clear-space-ratio: 0.25;
+}
+
+[data-aura-state='idle'] {
+  --aura-active-color: var(--aura-idle-fg);
+  --aura-active-bg: var(--aura-idle-bg);
+}
+
+[data-aura-state='sync'] {
+  --aura-active-color: var(--aura-cyan);
+  --aura-active-bg: var(--aura-idle-bg);
+}
+
+[data-aura-state='peak'] {
+  --aura-active-color: var(--aura-magenta);
+  --aura-active-bg: var(--aura-idle-bg);
+}
+
+[data-aura-state='success'] {
+  --aura-active-color: var(--aura-lime);
+  --aura-active-bg: var(--aura-idle-bg);
+}
