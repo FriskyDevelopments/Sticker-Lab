@@ -54,25 +54,25 @@ Tokens are defined in `brand/tokens/aura.css`:
 
 ## 6) Aura state logic
 
-- `STATE_IDLE`
+- `idle`
   - color: white (`--aura-idle-fg`)
   - animation: static
-- `STATE_SYNC`
+- `sync`
   - color: cyan (`--aura-cyan`)
   - animation: pulse (`2s`)
-- `STATE_PEAK`
+- `peak`
   - color: magenta (`--aura-magenta`)
   - animation: glitch (`0.4s`)
-- `STATE_SUCCESS`
+- `success`
   - color: lime (`--aura-lime`)
   - animation: glow
 
 Context mapping:
 
-- professional → `STATE_IDLE`
-- interaction/loading → `STATE_SYNC`
-- highlight/feature → `STATE_PEAK`
-- success/confirmation → `STATE_SUCCESS`
+- professional → `idle`
+- interaction-loading → `sync`
+- highlight-feature → `peak`
+- success-confirmation → `success`
 
 ## 7) Motion system
 
