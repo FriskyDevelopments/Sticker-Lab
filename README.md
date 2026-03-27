@@ -22,6 +22,7 @@ Use Frisky Developments when speaking about authorship, studio intent, ecosystem
 - [`docs/brand/frisky-developments.md`](docs/brand/frisky-developments.md) — parent-brand definition, voice, and logo direction.
 - [`docs/stix-system-handoff.md`](docs/stix-system-handoff.md) — product/system guidance for STIX as the state-driven portal shell.
 - [`docs/automation/architecture.md`](docs/automation/architecture.md) — technical plan for the LORE × STIX premium automation system.
+- [`brand/BRAND_GUIDELINES.md`](brand/BRAND_GUIDELINES.md) — machine-readable Frisky husky logo variants, Aura tokens, and core-node motion rules.
 
 ## Repo note
 
