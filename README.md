@@ -22,6 +22,10 @@ Use Frisky Developments when speaking about authorship, studio intent, ecosystem
 - [`docs/brand/frisky-developments.md`](docs/brand/frisky-developments.md) — parent-brand definition, voice, and logo direction.
 - [`docs/stix-system-handoff.md`](docs/stix-system-handoff.md) — product/system guidance for STIX as the state-driven portal shell.
 - [`docs/automation/architecture.md`](docs/automation/architecture.md) — technical plan for the LORE × STIX premium automation system.
+- [`docs/architecture.md`](docs/architecture.md) — shared monorepo boundaries and package responsibility model.
+- [`docs/environment_matrix.md`](docs/environment_matrix.md) — shared environment/config contracts across bot/web/platform.
+- [`docs/integration_contracts.md`](docs/integration_contracts.md) — reusable plug-and-play integration interfaces and rules.
+- [`docs/release_checklist.md`](docs/release_checklist.md) — workflow safety and release readiness gate.
 - [`brand/BRAND_GUIDELINES.md`](brand/BRAND_GUIDELINES.md) — machine-readable Frisky husky logo variants, Aura tokens, and core-node motion rules.
 
 ## Repo note

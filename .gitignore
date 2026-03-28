@@ -1,0 +1,14 @@
+# Local environment overrides
+.env.local
+.env.*.local
+
+# Dependency and build outputs
+node_modules/
+dist/
+build/
+coverage/
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
