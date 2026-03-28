@@ -1,0 +1,37 @@
+name: Brand Guardrails
+
+on:
+  pull_request:
+    paths:
+      - 'brand/**'
+      - 'docs/brand/**'
+      - 'scripts/validate_brand_system.py'
+      - '.github/workflows/brand-guardrails.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'brand/**'
+      - 'docs/brand/**'
+      - 'scripts/validate_brand_system.py'
+      - '.github/workflows/brand-guardrails.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-brand-system:
+    name: Validate brand assets and motion contracts
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run brand guardrails
+        run: python scripts/validate_brand_system.py

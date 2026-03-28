@@ -6,6 +6,12 @@ This document defines a premium automation system for Frisky Developments that c
 
 The system is designed as a **presence engine**, not a growth-hacking machine. Its job is to preserve brand quality while reducing repetitive operator work.
 
+## Companion docs
+
+- Workflow lifecycle definitions: [`docs/automation/workflows.md`](./workflows.md)
+- Connector contracts and observability baseline: [`docs/automation/connectors.md`](./connectors.md)
+- Operational guardrails: [`docs/automation/guardrails.md`](./guardrails.md)
+
 ## Design constraints
 
 - **Operator-first:** humans control campaign intent, release timing, and final approval.

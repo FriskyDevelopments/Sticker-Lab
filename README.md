@@ -22,8 +22,26 @@ Use Frisky Developments when speaking about authorship, studio intent, ecosystem
 - [`docs/brand/frisky-developments.md`](docs/brand/frisky-developments.md) — parent-brand definition, voice, and logo direction.
 - [`docs/stix-system-handoff.md`](docs/stix-system-handoff.md) — product/system guidance for STIX as the state-driven portal shell.
 - [`docs/automation/architecture.md`](docs/automation/architecture.md) — technical plan for the LORE × STIX premium automation system.
+- [`docs/automation/workflows.md`](docs/automation/workflows.md) — baseline authoring-to-publish workflow definitions.
+- [`docs/automation/connectors.md`](docs/automation/connectors.md) — connector adapter contracts and safety constraints.
+- [`docs/automation/guardrails.md`](docs/automation/guardrails.md) — operational safety rules for future automation deployments.
+- [`docs/operations/release-checklist.md`](docs/operations/release-checklist.md) — pre-release, deployment, and rollback checklist.
 - [`brand/BRAND_GUIDELINES.md`](brand/BRAND_GUIDELINES.md) — machine-readable Frisky husky logo variants, Aura tokens, and core-node motion rules.
 
 ## Repo note
 
 At the moment, the repository is primarily documentation-led. That means the brand system should avoid making unsupported claims about live product maturity. The docs define the intended architecture and design language so future implementation work can stay coherent.
+
+## Validation
+
+Run the brand guardrail validator locally before opening a PR:
+
+```bash
+python scripts/validate_brand_system.py
+```
+
+## Environment safety baseline
+
+- Use `.env.example` as a template, and keep real `.env` files local-only.
+- Keep `ENABLE_PUBLISHING=false` by default in development environments.
+- Require explicit manual approval before any real publish flow is enabled.

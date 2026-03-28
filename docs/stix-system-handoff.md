@@ -1,7 +1,7 @@
 # STIX State-Driven Portal System Handoff
 
 ## Brand Context
-This document defines **STIX** as the product and system layer inside a broader ecosystem. For parent-brand and naming guidance, use [`docs/brand/architecture.md`](brand/architecture.md) and [`docs/brand/frisky-developments.md`](brand/frisky-developments.md).
+This document defines **STIX** as the product and system layer inside a broader ecosystem. For parent-brand and naming guidance, use [`docs/brand/architecture.md`](./brand/architecture.md) and [`docs/brand/frisky-developments.md`](./brand/frisky-developments.md).
 
 Within that architecture:
 - **Frisky Developments** is the parent studio and creative signature.
