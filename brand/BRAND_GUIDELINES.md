@@ -115,3 +115,13 @@ Reject output if any of the following are true:
     animations.ts
   BRAND_GUIDELINES.md
 ```
+
+## 10) Continuous validation
+
+Use the repository guardrail script to verify the canonical logo hook, Aura token values, and motion contract:
+
+```bash
+python scripts/validate_brand_system.py
+```
+
+The same check is enforced in CI via `.github/workflows/brand-guardrails.yml`.
