@@ -75,8 +75,8 @@ This matrix defines shared environment expectations for bot/web/platform surface
 
 Before enabling a new surface or adapter:
 
-1. Add all new variables to this matrix.
-2. Add placeholder values to `.env.example`.
-3. Add runtime validation in shared config package.
+1. List all new variables in the matrix.
+2. Populate `.env.example` with placeholder values.
+3. Implement runtime validation in the shared config package.
 4. Confirm production-safe defaults (dry-run/review gates).
 5. Verify rotation and secret ownership with platform team.

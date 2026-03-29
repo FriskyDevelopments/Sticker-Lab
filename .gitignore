@@ -1,4 +1,7 @@
 # Local environment overrides
+.env
+.env.*
+!.env.example
 .env.local
 .env.*.local
 
