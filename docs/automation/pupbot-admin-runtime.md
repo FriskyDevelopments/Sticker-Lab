@@ -48,14 +48,15 @@ If `/link_group` is sent outside admin group, reject with:
 
 ### 3.2 Step B — confirmation in target group
 
-When `/link_code <code>` is posted in any group:
+When `/link_code <code>` is posted in a target group:
 
 1. Validate bot membership in that target group.
 2. Validate sender has admin rights in that target group.
 3. Resolve pending code and verify unexpired + unused.
-4. Create link (`admin_group_id` <-> `target_group_id`) idempotently.
-5. Mark code consumed.
-6. Confirm in both groups:
+4. Reject if `target_group_id == admin_group_id` (`cannot_link_admin_group_to_itself`).
+5. Create link (`admin_group_id` <-> `target_group_id`) idempotently.
+6. Mark code consumed.
+7. Confirm in both groups:
    - Target group: link success.
    - Admin group: include linked group id/title.
 
