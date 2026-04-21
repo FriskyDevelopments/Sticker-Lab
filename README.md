@@ -23,6 +23,7 @@ Use Frisky Developments when speaking about authorship, studio intent, ecosystem
 - [`docs/stix-system-handoff.md`](docs/stix-system-handoff.md) — product/system guidance for STIX as the state-driven portal shell.
 - [`docs/automation/architecture.md`](docs/automation/architecture.md) — technical plan for the LORE × STIX premium automation system.
 - [`docs/automation/workflows.md`](docs/automation/workflows.md) — baseline authoring-to-publish workflow definitions.
+- [`docs/automation/pupbot-admin-runtime.md`](docs/automation/pupbot-admin-runtime.md) — admin authority, link-handshake, and persona-mode runtime contract for GeminiPUP.
 - [`docs/automation/connectors.md`](docs/automation/connectors.md) — connector adapter contracts and safety constraints.
 - [`docs/automation/guardrails.md`](docs/automation/guardrails.md) — operational safety rules for future automation deployments.
 - [`docs/operations/release-checklist.md`](docs/operations/release-checklist.md) — pre-release, deployment, and rollback checklist.
